@@ -123,7 +123,17 @@ img {
   margin-left: auto;
 }
 
-.mail-contact::before {
+.icon-mail {
+  width: 16px;
+  height: 12px;
+}
+
+.icon-phone {
+  width: 10px;
+  height: 16px;
+}
+
+/* .mail-contact::before {
   content: ' ';
   width: 16px;
   height: 12px;
@@ -141,7 +151,7 @@ img {
   margin-right: 10px;
   background-image: url(../images/phone.svg);
   align-items: center;
-}
+} */
 
 /* hiro */
 
@@ -254,6 +264,36 @@ img {
   margin-right: 30px;
 }
 
+/* .advantage-list > .subtitle::before {
+  content: ' ';
+  display: inline-flex;
+
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--team-bcg-color);
+  border-radius: 4px;
+}
+
+.atention::before {
+  background-image: url(../images/antenna.svg);
+}
+
+.punctuality::before {
+  background-image: url(../images/clock.svg);
+}
+
+.planning::before {
+  background-image: url(../images/computer.svg);
+}
+
+.tehnologis::before {
+  background-image: url(../images/man.svg);
+} */
+
 /* examples */
 .examples {
   padding-bottom: 94px;
@@ -284,36 +324,6 @@ img {
 
 .examples-list > .subtitle:nth-child(3n) {
   margin-right: 0;
-}
-
-.subtitle::before {
-  content: ' ';
-  display: inline-flex;
-
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--team-bcg-color);
-  border-radius: 4px;
-}
-
-.atention::before {
-  background-image: url(../images/antenna.svg);
-}
-
-.punctuality::before {
-  background-image: url(../images/clock.svg);
-}
-
-.planning::before {
-  background-image: url(../images/computer.svg);
-}
-
-.tehnologis::before {
-  background-image: url(../images/man.svg);
 }
 
 /* ourteam */
