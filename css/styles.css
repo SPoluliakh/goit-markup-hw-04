@@ -405,7 +405,7 @@ img {
   margin-right: 30px;
 }
 
-/* footer */
+/* FOOTER */
 
 .cellar {
   padding-top: 60px;
@@ -448,6 +448,8 @@ img {
   margin-bottom: 9px;
 }
 
+/* footer-svg*/
+
 .act {
   margin-left: 70px;
   align-self: flex-start;
@@ -462,11 +464,29 @@ img {
   text-transform: uppercase;
 
   color: var(--header-bcg-color);
+
+  display: block;
+  margin-bottom: 20px;
 }
 
-.act-list {
-  justify-content: center;
-  align-items: center;
+.act-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--header-bcg-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.act-items:not(:last-child) {
+  margin-right: 10px;
+}
+
+.act-link svg {
+  fill: currentColor;
+}
+.act-link:hover,
+.act-link:focus {
+  background-color: var(--activ-color);
 }
 
 /* PORTFOLIO */
