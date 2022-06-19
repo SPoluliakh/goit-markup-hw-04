@@ -373,25 +373,27 @@ img {
   margin-bottom: 50px;
 }
 
-.clients-svg {
-  fill: var(--icon-color);
-}
-
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.clients-list {
+.clients-link {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  color: var(--icon-color);
+}
+
+.clients-svg {
+  fill: currentColor;
 }
 
 .clients-link:hover,
 .clients-link:focus {
   color: var(--activ-color);
+  border-color: var(--activ-color);
 }
 
 .clients-icon {
