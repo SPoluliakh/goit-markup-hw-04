@@ -537,6 +537,13 @@ img {
   text-decoration: none;
 }
 
+.general-cards:hover,
+.general-cards:focus {
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .general-link .prewieu {
   padding: 20px 24px;
 }
@@ -560,11 +567,6 @@ img {
 
   margin-top: 4px;
   margin-bottom: 0;
-}
-
-.general-title:hover,
-.general-text:hover {
-  color: var(--activ-color);
 }
 
 /*portfolio/ container */
