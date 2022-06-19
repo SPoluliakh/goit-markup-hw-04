@@ -13,6 +13,14 @@
 }
 
 /* common */
+
+a:active,
+a:focus,
+button:focus,
+button:active {
+  outline: none;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;

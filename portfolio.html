@@ -26,10 +26,10 @@
           <a class="hat-logo flex" href="./index.html"><span class="half">Web</span>Studio</a>
           <ul class="hat-list common">
             <li class="item">
-              <a class="hat-link" href="./index.html">Студия</a>
+              <a class="hat-link current" href="./index.html">Студия</a>
             </li>
             <li class="item">
-              <a class="hat-link current" href="./portfolio.html">Портфолио</a>
+              <a class="hat-link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="item">
               <a class="hat-link" href="">Контакты</a>
@@ -39,10 +39,20 @@
 
         <ul class="hat-list common info">
           <li class="item">
-            <a class="hat-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="hat-contact" href="mailto:info@devstudio.com">
+              <svg class="icon-mail" width="16px" height="12px">
+                <use href="./images/sprite.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="item">
-            <a class="hat-contact" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="hat-contact" href="tel:+380961111111">
+              <svg class="icon-phone" width="10px" height="16px">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -162,13 +172,44 @@
 
     <!--Футер-->
     <footer class="cellar">
-      <div class="container">
-        <a class="cellar-logo" href="./index.html"><span class="half">Web</span>Studio</a>
-        <address class="user">
-          г. Киев, пр-т Леси Украинки, 26 <br />
-          <a class="user-mail" href="mailto:info@example.com">info@example.com</a>
-          <a class="user-phone" href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
+      <div class="container flex">
+        <div>
+          <a class="cellar-logo" href="./index.html"><span class="half">Web</span>Studio</a>
+          <address class="user">
+            г. Киев, пр-т Леси Украинки, 26 <br />
+            <a class="user-mail" href="mailto:info@example.com">info@example.com</a>
+            <a class="user-phone" href="tel:+380991111111">+38 099 111 11 11</a>
+          </address>
+        </div>
+        <div class="act">
+          <em class="act-title">присоединяйтесь</em>
+          <ul class="act-list common">
+            <li class="common act-items">
+              <a class="act-link common" href=""
+                ><svg width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="common act-items">
+              <a class="act-link common" href=""
+                ><svg width="20px" height="16.25px">
+                  <use href="./images/sprite.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="common act-items">
+              <a class="act-link common" href=""
+                ><svg width="10px" height="20px">
+                  <use href="./images/sprite.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="common act-items">
+              <a class="act-link common" href=""
+                ><svg width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
