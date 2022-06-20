@@ -315,7 +315,7 @@ img {
   color: var(--titel-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.19;
 
   text-transform: none;
 
@@ -326,7 +326,7 @@ img {
 .ourteam-list .text {
   color: var(--text-color);
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.19;
 
   margin-top: 0;
   margin-bottom: 16px;
